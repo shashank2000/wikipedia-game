@@ -10,6 +10,9 @@
        color: black;
        text-align: center;
     }
+input {
+    width: 100%;
+}
     </style>
 
     <body>
