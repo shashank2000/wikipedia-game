@@ -74,6 +74,7 @@ def run_bfs(end_url, start_url):
     from start_url to end_url. An empty list is returned if there is no path between
     start_url and end_url.
     """
+
     link_queue = deque([start_url])
     link_path = [start_url]
     links_to_end = get_links_to(end_url)
