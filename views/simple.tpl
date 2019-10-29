@@ -12,6 +12,10 @@
     }
     input[type=text] {
         width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border-radius: 4px;
     }
     input[type=text]:focus {
         background-color: lightblue;
@@ -31,16 +35,15 @@
 
     <body>
         <h1> {{title}} </h1>
-        {{content}}<br>
 
         <form method="post">
-            Start page: <input name="start" type="text" />
-            End page: <input name="end" type="text" value="Kevin Bacon" />
+            Start page: <input placeholder="Angelina Jolie" name="start" type="text" />
+            End page: <input text="End page" placeholder="Kevin Bacon" name="end" type="text" />
             <input value="Find" type="submit" />
         </form>
-
+<br/><br/>{{content}}<br>
     <div class="footer">
-        Made by <a href=https://github.com/lucaspauker>Lucas Pauker</a> and <a href=https://github.com/TheShashank>Shashank Rammorthy</a>
+        Made by <a href=https://github.com/lucaspauker>Lucas Pauker</a> and <a href=https://github.com/shashank2000>Shashank Rammoorthy</a>
     </div>
     </body>
 </html>
